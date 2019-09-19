@@ -1,0 +1,23 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+
+$('img').click(function(){
+        video = '<iframe src="'+ $(this).attr('data-video') +'"></iframe>';
+        $(this).replaceWith(video);
+    });
+});
+</script>
+</head>
+<body>
+<img src="pic/black-rhinoceros-412667_1280.jpg" data-video="video/black_rhinos.mp4"video="width=100% height=100%">
+<body>
+</html>
+
+
+
+
+

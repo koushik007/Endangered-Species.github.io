@@ -1,0 +1,209 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+
+$('img').click(function(){
+        video = '<iframe src="'+ $(this).attr('data-video') +'"></iframe>';
+        $(this).replaceWith(video);
+    });
+});
+</script>
+</head>
+<style>
+body
+{
+background-image:url(pic/asiabackground.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}
+p
+{
+color:#F7D9E5;
+font-family:Britannic Bold;
+font-size:19;
+text-shadow: 2px 2px 8px #FF0000;
+}
+h3,h1
+{
+color:#F00062  ;
+font-family:Britannic Bold;
+font-size:30;
+text-shadow:0px 2px #F8FB3A;
+}
+
+</style>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Continents
+		
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="africa.html">Africa</a>
+          <a class="dropdown-item" href="#">Asia</a>
+          <a class="dropdown-item" href="australia.html">Australia</a>
+		  <a class="dropdown-item" href="europe.html">Europe</a>
+		  <a class="dropdown-item" href="north america.html">North America</a>
+		  <a class="dropdown-item" href="south america.html">South America</a>
+		  <a class="dropdown-item" href="antartica.html">Antartica</a>
+        </div>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link" href="FAQ.html">FAQ</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="mt-4">
+<section id="showcase">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-left">
+<img src="pic/PicsArt_09-07-10.52.52.jpg"class="img-fluid rounded-pill shadow-lg p-3 mb-5 bg-white rounded"alt="responsiveimage" width="500px" height="100px"data-video="video/snow_leopards.mp4">
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-right">
+<h1>Snow Leopard</h1>
+<p>The Snow Leopard is also intentionally hunted for it fur, as well as for other body parts that are used in Traditional Chinese Medicine as a substitute for much more rare tiger parts, including bones, claws meat and sexual organs. Poaching of live animals for use in circuses and zoos is also depleting the wild populations</p></div>
+<br>
+
+</div>
+</div>
+</section>
+</div>
+<div class="mt-4">
+<section id="showcase">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-left">
+<img src="pic/green-sea-turtle-79945_1280.jpg"class="img-fluid rounded-pill shadow-lg p-3 mb-5 bg-white rounded"alt="responsiveimage" width="500px" height="300px"data-video="video/green Sea Turtles.mp4">
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-right">
+<h1>Green Sea Turtle</h1>
+<p>The single greatest threat to all sea turtles, including the Green Turtle, is intentional human harvesting of their eggs from beach-side nesting areas. They are also often caught by fisherman, both accidentally and intentionally, and then killed for their meat. Human beachfront development often encroaches on nesting sites, and the lights from beach-side communities can fatally disorient newly hatched turtle, drawing them away from the ocean.
+
+</p></div>
+<br>
+
+</div>
+</div>
+</section>
+</div>
+<div class="mt-4">
+<section id="showcase">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-left">
+<img src="pic/PicsArt_09-07-10.44.39.jpg"class="img-fluid rounded-pill shadow-lg p-3 mb-5 bg-white rounded"alt="responsiveimage" width="500px" height="300px"data-video="video/gibbons.mp4">
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-right">
+<h1>Lar Gibbon</h1>
+<p>Once plentiful in Southeast Asia, many gibbon species are currently endangered, including the Lar Gibbon. Even though the threat caused by deforestation is on the decline, these animals are still over-hunted for their meat. They are also captured in large numbers for the pet trade, even in protected areas.
+
+Gibbons are unlike other apes in that they act as seed carriers for the fruits they eat. They swallow most of the seeds in their diet, and several fruits that gibbons eat are dependent on the the digestive process to both remove the outer cover of the seeds and to disperse them through the environment.  </p></div>
+<br>
+
+</div>
+</div>
+</section>
+</div>
+<div class="mt-4">
+<section id="showcase">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-left">
+<img src="pic/nature-.jpg"class="img-fluid rounded-pill shadow-lg p-3 mb-5 bg-white rounded"alt="responsiveimage" width="500px" height="300px"data-video="video/redheadedvulture.mp4">
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-right">
+<h1>Red-Headed Vulture</h1>
+<p> Once widely disbursed and abundant through Asia, in recent decades the wild population of Red-Headed Vultures (also known as the Indian Black or Pondicherry Vulture) have experienced a rapid decline in range and population. The current wild population is estimated at less than 10,000 individuals throughout Asia, with just a few hundred in Southeast Asia and the rest mostly in India. 
+ </p></div>
+<br>
+
+</div>
+</div>
+</section>
+</div>
+<div class="mt-4">
+<section id="showcase">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-left">
+<img src="pic/tiger.jpg"class="img-fluid rounded-pill shadow-lg p-3 mb-5 bg-white rounded"alt="responsiveimage" width="500px" height="250px"data-video="video/tiger.mp4">
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-right">
+<h1>Sumatran Tiger</h1>
+<p>
+Multiple tiger subspecies once freely roamed throughout Asia, from Turkey in the west to the Russian coastline in the east. Over the last 100 years tigers have disappeared from 93% of their historic range. The current wild population of all tigers is endangered, with several subspecies considered critically endangered. The entire worldwide wild population is estimated at 3,000 to 5,000 individuals.
+</p></div>
+<br>
+
+</div>
+</div>
+</section>
+</div>
+<div class="mt-4">
+<section id="showcase">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-left">
+<img src="pic/PicsArt_09-08-12.02.26.jpg"class="img-fluid rounded-pill shadow-lg p-3 mb-5 bg-white rounded"alt="responsiveimage" width="500px" height="100px"data-video="video/giant_pandas.mp4">
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-6">
+<div class="showcase-right">
+<h1>Giant Panda</h1>
+<p>
+ Once ranging throughout China, the current wild population of Giant Pandas is estimated to be just 1,000 to 2,000 animals. Giant Pandas are completely dependent upon bamboo forests, and in the past they were able to roam from area to area to locate sufficient amounts of food. The combination of deforestation for farming and the breakup of their native range by roads and construction have reduced the Panda population down to smaller numbers.
+ </p></div>
+<br>
+
+</div>
+</div>
+</section>
+</div>
+</body>
+</html>
